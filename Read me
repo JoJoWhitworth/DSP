@@ -1,2 +1,7 @@
+As it stands: The system can currently: Record a 5 second voice clip, extract MFCC features from this audio clip, 
+classify if the voice clip is male or female and create an adversarial input.
+
+Objectives: Convert MFCC features back into audio clip to classify a second time in order to see if a voice clip can be wronly classified.
+
 The male and female files each contain the training data required for the system to work properly
 They need to be unzipped and saved in the same folder as the .py file
